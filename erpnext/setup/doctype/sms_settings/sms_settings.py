@@ -30,7 +30,7 @@ def validate_receiver_nos(receiver_list):
 def get_sender_name():
 	"returns name as SMS sender"
 	sender_name = frappe.db.get_single_value('SMS Settings', 'sms_sender_name') or \
-		'ERPNXT'
+		'ZiNNEE'
 	if len(sender_name) > 6 and \
 			frappe.db.get_default("country") == "India":
 		throw("""As per TRAI rule, sender name must be exactly 6 characters.

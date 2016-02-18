@@ -73,13 +73,5 @@ def get_data():
 			"icon": "icon-phone",
 			"icon": "octicon octicon-issue-opened",
 			"type": "module"
-		},
-		{
-			"module_name": "Learn",
-			"color": "#FF888B",
-			"icon": "octicon octicon-device-camera-video",
-			"type": "module",
-			"is_help": True,
-			"label": _("Learn")
 		}
 	]

@@ -12,7 +12,7 @@ app_email = "info@erpnext.com"
 app_license = "GNU General Public License (v3)"
 source_link = "https://github.com/frappe/erpnext"
 
-error_report_email = "support@erpnext.com"
+error_report_email = "support@zinnee.com"
 
 app_include_js = "assets/js/erpnext.min.js"
 app_include_css = "assets/css/erpnext.css"
@@ -132,8 +132,8 @@ scheduler_events = {
 }
 
 default_mail_footer = """<div style="text-align: center;">
-	<a href="https://erpnext.com?source=via_email_footer" target="_blank" style="color: #8d99a6;">
-		Sent via ERPNext
+	<a href="http://zinnee.com?source=via_email_footer" target="_blank" style="color: #8d99a6;">
+		Powered by Zinnee
 	</a>
 </div>"""
 
